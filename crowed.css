@@ -1,0 +1,109 @@
+    body {
+        background-color: #f2f4f7;
+        font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+
+    }
+
+    img {
+        width: 400px;
+    }
+
+
+    .facebook-box {
+        /* border: 2px solid black; */
+        width: 500px;
+        height: 450px;
+    }
+
+    p {
+        font-size: 24px;
+        font-weight: 500;
+        margin-left: 9px;
+    }
+
+    .login-div {
+        width: 400px;
+        height: 400px;
+        background-color: white;
+        text-align: center;
+        border-radius: 10px;
+            box-shadow: 0 2px 4px #0000001a, 0 8px 16px #0000001a;
+    }
+
+    .main-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+
+    input {
+        width: 90%;
+        height: 50px;
+        font-weight: 400;
+        padding: 14px;
+        outline: none;
+        outline-color: #a52828;
+        font-size: 18px;
+        margin: 14px;
+        border: none;
+        border: 1px solid #dddfe2;
+        border-radius: 8px;
+    }
+
+    button {
+        width: 90%;
+        font-size: 18px;
+        padding: 10px;
+        background-color: #a52828;
+        height: 40px;
+        color: white;
+         cursor: pointer;
+        font-weight: 600;
+        border: none;
+        border-radius: 6px;
+        margin-top: 10px;
+    }
+
+
+    a {
+        display: block;
+        margin-top: 22px;
+        color: #a52828;
+        text-decoration: none;
+    }
+
+    hr {
+        width: 90%;
+        margin-top: 30px;
+    }
+
+
+    #forgotten-btn {
+        width: 50%;
+        font-size: 18px;
+        padding: 10px;
+        background-color: #00000096;
+        height: 50px;
+        color: white;
+        font-weight: 600;
+        border: none;
+        border-radius: 6px;
+        margin-top: 10px;
+        /* padding-top: 10px; */
+        /* padding-bottom: 10px; */
+    }
+
+    h1{
+        color: #a52828;
+        /* border: 1px solid black; */
+        font-size: 65px;
+    }
+
+
+    #forgotten-btn:hover{
+        background-color: #000000;
+        cursor: pointer;
+    }
